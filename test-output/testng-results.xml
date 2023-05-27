@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-17T01:47:40 IST" name="Default suite" finished-at="2023-04-17T01:47:46 IST" duration-ms="5630">
+  <suite started-at="2023-05-14T12:31:54 IST" name="Default suite" finished-at="2023-05-14T12:31:54 IST" duration-ms="638">
     <groups>
     </groups>
-    <test started-at="2023-04-17T01:47:40 IST" name="Default test" finished-at="2023-04-17T01:47:46 IST" duration-ms="5630">
-      <class name="com.rest.api.delete.delete_APIs">
-        <test-method signature="delete_user_APIs()[pri:0, instance:com.rest.api.delete.delete_APIs@1ab3a8c8]" started-at="2023-04-17T01:47:40 IST" name="delete_user_APIs" finished-at="2023-04-17T01:47:46 IST" duration-ms="5533" status="PASS">
+    <test started-at="2023-05-14T12:31:54 IST" name="Default test" finished-at="2023-05-14T12:31:54 IST" duration-ms="638">
+      <class name="com.rest.api.post.Serialization_Deserialization">
+        <test-method signature="JSON_to_POJO()[pri:0, instance:com.rest.api.post.Serialization_Deserialization@441772e]" started-at="2023-05-14T12:31:54 IST" name="JSON_to_POJO" finished-at="2023-05-14T12:31:54 IST" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete_user_APIs -->
-      </class> <!-- com.rest.api.delete.delete_APIs -->
+        </test-method> <!-- JSON_to_POJO -->
+      </class> <!-- com.rest.api.post.Serialization_Deserialization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

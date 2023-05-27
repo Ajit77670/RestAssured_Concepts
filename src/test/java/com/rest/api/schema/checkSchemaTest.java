@@ -26,7 +26,7 @@ public class checkSchemaTest {
 		.when().log().all()
 				.post("/booking")
 		.then().log().all()
-			.assertThat()
+			.assertThat()                                       
 				.statusCode(200)
 		.and()
 			.body(matchesJsonSchemaInClasspath("C:\\Users\\Ajith Kumar\\eclipse-workspace\\"

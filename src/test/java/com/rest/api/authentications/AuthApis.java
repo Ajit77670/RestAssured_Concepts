@@ -20,14 +20,14 @@ public class AuthApis {
 	//In this case we use premptive authentication along with basic authentication. preemmtive will enforce server 
 	//to beleive the authentication provided by basic authorization is correct and you no need to verfy it again.
 	
-	//3.Oauth1.0-->CleintID, Client-Secret,API Key ,API Secret
+	//3.Oauth1.0-->Consumer-key, Consumer-Secret,API Key ,API Secret
 		
-	//4.Oauth2.0 -->Bearer Token, Token-id(Generating with help of GrantType, Client Key, Client token)
+	//4.Oauth2.0 -->Bearer Token, Token-id(Generating with help of GrantType, Client-ID, Client token)
 		
 	//5.digest-->In digest Authentication along with username and password enternally one Hashcode will be sent to the server
 	//so that over differnt network layer these two username and password will always be secure.
 		
-	//6.form
+	//6.form 
 		
 	
 	

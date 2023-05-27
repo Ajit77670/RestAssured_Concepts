@@ -37,7 +37,8 @@ public class POST_BDD_API {
 		public void tokenPOST_BDD_API_FILE_TEST() {
 			
 			RestAssured.baseURI ="https://restful-booker.herokuapp.com";
-		String tokenID =	given().log().all()
+		String tokenID =	
+				given().log().all()
 				.contentType(ContentType.JSON)
 				.body(new File ("C:\\Users\\Ajith Kumar\\eclipse-workspace\\REST_ASSURED_FRAMEWORK\\src\\test\\java\\Data_File\\credentials.json"))
 			.when().log().all()

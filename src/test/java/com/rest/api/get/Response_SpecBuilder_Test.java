@@ -15,7 +15,10 @@ public class Response_SpecBuilder_Test {
 	
 	
 	// Create the object for ResponseSpecBuilder object and defined your expected response. its very helpful in validationg the common response.
+	
 	ResponseSpecBuilder resSpec = new ResponseSpecBuilder();
+	
+	
 		ResponseSpecification resspec_200_OK = resSpec
 				.expectContentType(ContentType.JSON)
 				.expectStatusCode(200)

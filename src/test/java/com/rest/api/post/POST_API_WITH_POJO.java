@@ -24,7 +24,7 @@ public class POST_API_WITH_POJO {
 	
 	
 	@Test
-	public void create_User_POJO_Test() {
+	public void create_User_POJO_Test() {      
 		
 		
 		User_POJO_Template user = new User_POJO_Template("Ajit","Kumar","male","06-12-1989","ajit1@gmail.com","90444444118","https://www.ajit.com"
@@ -64,7 +64,6 @@ public class POST_API_WITH_POJO {
 				.body("result.status", equalTo(user.getStatus()));
 		
 				
-		
 		
 	}
 	

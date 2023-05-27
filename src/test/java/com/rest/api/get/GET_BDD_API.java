@@ -29,7 +29,7 @@ public class GET_BDD_API {
 		
 		given().log().all()
 			.when().log().all()
-			.get("http://ergast.com/api/f1/2017/circuits.json")
+			.	get("http://ergast.com/api/f1/2017/circuits.json")
 			.then().log().all()
 				.assertThat()
 				.body("MRData.CircuitTable.Circuits.circuitId", hasSize(20)); //hasSize() method comes from hamcrest library.
