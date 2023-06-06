@@ -1,0 +1,41 @@
+pipeline {
+
+agent any 
+
+stages{
+
+  stage('Build')
+  {
+         steps{
+                  echo "Build Sucessfully"
+                  bat "mvn compile"
+               }
+   }
+      
+      stage('Test')
+      {
+         steps{
+                  echo "Test Sucessfully"
+                  bat "mvn test"
+               }
+      }
+      
+      stage('Compile')
+      {
+         steps{
+                  echo "compiling the  project"
+                  bat "mvn compile"
+               }
+      }
+      
+       stage('Deploy')
+      {
+         steps{
+                  echo "Deploy the  project"
+                  bat "mvn deploy"
+               }
+      }
+      
+}
+
+}
