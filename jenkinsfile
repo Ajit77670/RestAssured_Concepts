@@ -8,7 +8,7 @@ stages{
   {
          steps{
                   echo "Build Sucessfully"
-                  bat "mvn compile"
+                  bat "mvn clean"
                }
    }
       
